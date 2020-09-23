@@ -18,7 +18,6 @@ const state = store.getState();
 const visibleExpenses = getVisibleExpense(state.expenses, state.filters);
 console.log(visibleExpenses);
 
-console.log(store.getState());
 
 ReactDOM.render(<AppRouter />, document.getElementById('app'));
 
